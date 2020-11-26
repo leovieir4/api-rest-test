@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/leovieir4/gorila-api#readme",
   "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
     "@types/jest": "^24.0.15",
     "@types/node": "^13.1.6",
     "@types/validator": "github:types/validator",
@@ -41,6 +42,7 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "validator": "^12.1.0"
   }
 }
