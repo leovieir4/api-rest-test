@@ -1,9 +1,10 @@
 import { MongoHelper } from '../helpers/mongo-helper'
 import { AccountMongoRepository } from './account'
+import env from '../../../../main/config/env'
 
 describe('Account Mongo Repository', () => {
   beforeAll(async () => {
-    await MongoHelper.connect('mongodb://localhost:27017')
+    await MongoHelper.connect(env.mongoTest)
   })
   afterAll(async () => {
     await MongoHelper.disconnect()
