@@ -1,6 +1,6 @@
 import { Controller, HttpRequest, HttpResponse } from '../../presentation/protocols'
 import { LogControllerDeccorator } from './log'
-import { serverError } from '../../presentation/helper/http-helper'
+import { serverError } from '../../presentation/helper/http/http-helper'
 import { LogErrorRepository } from '../../data/protocols/log-error-repository'
 
 const makeController = (): Controller => {
