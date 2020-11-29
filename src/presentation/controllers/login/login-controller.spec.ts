@@ -1,5 +1,5 @@
 import { LoginController } from './login-controller'
-import { badRequest, serverError, unauthorized, ok } from '../../helper/http/http-helper'
+import { badRequest, serverError, unauthorized } from '../../helper/http/http-helper'
 import { HttpRequest, Authentication, Validation } from './login-controller-protocols'
 import { AuthenticationModel } from '../../../domain/usecases/authentication'
 
@@ -25,7 +25,8 @@ const makeFakeRequest = (): HttpRequest => ({
   body: {
     email: 'any_email@mail.com',
     password: 'any_password'
-  }
+  },
+  mehod: 'any_method'
 })
 interface SutTypes {
   sut: LoginController
@@ -63,11 +64,6 @@ describe('Login Controller', () => {
     })
     const httpResponse = await sut.handle(makeFakeRequest())
     expect(httpResponse).toEqual(serverError(new Error()))
-  })
-  test('Should return 200 if valid credentials are', async () => {
-    const { sut } = makeSut()
-    const httpResponse = await sut.handle(makeFakeRequest())
-    expect(httpResponse).toEqual(ok({ accessToken: 'any_token' }))
   })
   test('Should call Validation with correct value', async () => {
     const { sut, validationStub } = makeSut()

@@ -34,7 +34,8 @@ const makeFakeRequest = (): HttpRequest => ({
     email: 'any_email@email.com',
     password: 'any_password',
     passwordConfirmation: 'any_password'
-  }
+  },
+  mehod: 'any_method'
 })
 interface SutTypes {
   sut: LogControllerDeccorator

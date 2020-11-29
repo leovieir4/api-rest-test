@@ -130,7 +130,7 @@ describe('DbAuthentication UseCase', () => {
   test('Should call Encrypter with correct id', async () => {
     const { sut } = makeSut()
     const accessToken = await sut.auth(makeFakeAuthentication())
-    expect(accessToken).toBe('any_token')
+    expect(accessToken).toEqual({ accessToken: 'any_token', id: 'any_id' })
   })
   test('Should call UpdateAcessTokenRepository with correct values', async () => {
     const { sut, updateAcessTokenRepositoryStub } = makeSut()
