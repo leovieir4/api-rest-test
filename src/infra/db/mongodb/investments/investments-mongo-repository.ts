@@ -21,10 +21,8 @@ export class InvestmentsMongoRepository {
   }
 
   async delete (id: string): Promise<any> {
-    console.log(id)
     const investmesCollection = MongoHelper.getCollection('investments')
     const result = await investmesCollection.deleteOne({ _id: new ObjectId(id) })
-    console.log(result, 'AAAAAAAAAAAAAAAAAAAA')
     return result
   }
 }

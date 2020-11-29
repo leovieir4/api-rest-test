@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import { adaptMiddleware } from '../../adapters/express-middleware-adapter copy'
-import { adaptRoute } from '../../adapters/express-route-adapter'
-import { makeInvestmentsController } from '../../factories/investments/investments-factory'
-import { makeAuthMiddleware } from '../../factories/middlewares/auth-middleware-factory'
+import { adaptMiddleware } from '../adapters/express-middleware-adapter copy'
+import { adaptRoute } from '../adapters/express-route-adapter'
+import { makeInvestmentsController } from '../factories/investments/investments-factory'
+import { makeAuthMiddleware } from '../factories/middlewares/auth-middleware-factory'
 import { tickets } from './tickets'
 export default (router: Router): void => {
   const adminAuth = adaptMiddleware(makeAuthMiddleware())
