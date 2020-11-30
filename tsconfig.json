@@ -6,5 +6,12 @@
         "esModuleInterop": true,
         "allowJs": true,
         "strictNullChecks": true,
-    }
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "**/*.spec.ts",
+        "**/*.test.ts"
+    ]
 }
