@@ -59,6 +59,6 @@ $ npm run test // roda todos os test tanto integration quanto unit
 $ npm run test:ci // roda todos os tentes monstrando a cobertura total
 ```
 
-A api está hospedada no heroku versão free dyno, por isso quando não utiliza o heroku a desliga até a proxima requisição, por isso pode demorar um pouco para a primeira resposta.
+A api está hospedada no heroku versão free dyno, por isso quando não utilizada o heroku a desliga até a proxima requisição, por isso pode demorar um pouco para a primeira resposta.
 
 Link da api: https://api-gorila-one.herokuapp.com/api/
