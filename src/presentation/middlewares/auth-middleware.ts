@@ -16,7 +16,7 @@ export class AuthMiddleware implements Middleware {
         return ok({ userId: account.id })
       }
     }
-
+    console.log(accessToken)
     return forbidden(new AcessDeniedError())
   }
 }

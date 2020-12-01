@@ -59,6 +59,8 @@ export class InvestmentsController {
       const investment = await this.investments.delete(id)
       return ok(investment)
     } catch (error) {
+      console.log(httpRequest.headers.id, 'AAAAAAAAAAAAAA')
+      console.error(error)
       return serverError(error)
     }
   }
