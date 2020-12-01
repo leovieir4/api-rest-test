@@ -14,8 +14,8 @@ gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e
   - POST /investments/{id}:  adiciona um novo investimento ao banco de dados
   - DELETE /investments/{id}: remove um investimento do banco de dados
   - GET /investments{id}: lista todos os investimentos do usuário
-  - GET /investments/tickets returna algums nomes de açoes da b3 para utilziar no front
-  - POST /login: recebe através do body um email e password para autenticação, se correto retorno assccesToken // não precisa autenticar é publica
+  - GET /investments/tickets retorna alguns nomes de açoes da b3 para utilzar no front
+  - POST /login: recebe através do body um email e password para autenticação, se correto retorna o assccesToken // não precisa autenticar é publica
   - POST /signup: recebe dados de criação do usuario no body(name, password, passwordConfirmatio e email) cria um usuario na base // não precisa autenticar é publica
   -
 ### Tech
