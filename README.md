@@ -52,9 +52,9 @@ Tests:
 
 ```sh
 $ npm run test:unit // roda apenas testes unitarios
-$ npm run test:integration // roda apenas os test de integração
-$ npm run test // roda todos os test tanto integration quanto unit
-$ npm run test:ci // roda todos os tentes monstrando a cobertura total
+$ npm run test:integration // roda apenas os testes de integração
+$ npm run test // roda todos os testes tanto integration quanto unit
+$ npm run test:ci // roda todos os testes monstrando a cobertura total
 ```
 
 A api está hospedada no heroku versão free dyno, por isso quando não utilizada o heroku a desliga até a proxima requisição, por isso pode demorar um pouco para a primeira resposta.
