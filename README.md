@@ -2,8 +2,6 @@
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e com banco orientando a documentos MongoDb e com base nos princios de TDD (ulizando jest para unit tests e supertest para integration), Clean Architecture, SOLID e seus design patterns. Criada para cumprir o [desafio](https://www.notion.so/Teste-Gorila-Full-Stack-J-nior-e-Pleno-d5e1b497ff64430ab6bb50aa988e2429) da Gorila invest de criar uma carteira de ativos de renda fixa e renda variada simplificada.
 
 # Features!
@@ -41,7 +39,7 @@ gorila-api precisa [Node.js](https://nodejs.org/) v10+ para rodar.
 npm para o gerenciamento e download das dependencias
 MongoDb
 
-Com essas depencias instaladas, basta clonar o repositorio do git, navegar até a pas raiz da aplicação e rodas os seguintes comandos:
+Com essas depencias instaladas, basta clonar o repositorio do git, navegar até a pasta raiz da aplicação e rodas os seguintes comandos:
 
 ```sh
 $ npm install
