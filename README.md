@@ -16,8 +16,9 @@ gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e
   - POST /investments/{id}:  adiciona um novo investimento ao banco de dados
   - DELETE /investments/{id}: remove um investimento do banco de dados
   - GET /investments: lista todos os investimentos
-  - POST /login: recebe através do body um email e password para autenticação, se correto retorno assccesToken
-  - POST /signup: recebe dados de criação do usuario no body(name, password, passwordConfirmatio e email) cria um usuario na base
+  - GET /investments/tickets returna algums nomes de açoes da b3 para utilziar no front
+  - POST /login: recebe através do body um email e password para autenticação, se correto retorno assccesToken // não precisa autenticar é publica
+  - POST /signup: recebe dados de criação do usuario no body(name, password, passwordConfirmatio e email) cria um usuario na base // não precisa autenticar é publica
   -
 ### Tech
 
@@ -57,3 +58,7 @@ $ npm run test:integration // roda apenas os test de integração
 $ npm run test // roda todos os test tanto integration quanto unit
 $ npm run test:ci // roda todos os tentes monstrando a cobertura total
 ```
+
+A api está hospedada no heroku versão free dyno, por isso quando não utiliza o heroku a desliga até a proxima requisição, por isso pode demorar um pouco para a primeira resposta.
+
+Link da api: https://api-gorila-one.herokuapp.com/api/
