@@ -37,7 +37,7 @@ Codigo publicado no GitHub
 
 ### Installation
 
-gorila-api presisa [Node.js](https://nodejs.org/) v10+ para rodar.
+gorila-api precisa [Node.js](https://nodejs.org/) v10+ para rodar.
 npm para o gerenciamento e download das dependencias
 MongoDb
 
@@ -46,7 +46,7 @@ Com essas depencias instaladas, basta clonar o repositorio do git, navegar até 
 ```sh
 $ npm install
 $ npm run dev //rodar em modo de desenvolvedor
-$ npm run build //gerar a pasta dis para rodar em produção
+$ npm run build //gerar a pasta dist para rodar em produção
 $ npm run start //rodar a api apartir dos arquivos de build /dist
 ```
 
