@@ -15,7 +15,7 @@ gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e
   - GET /investments/tickets retorna alguns nomes de açoes da b3 para utilzar no front
   - POST /login: recebe através do body um email e password para autenticação, se correto retorna o assccesToken // não precisa autenticar é publica
   - POST /signup: recebe dados de criação do usuario no body(name, password, passwordConfirmatio e email) cria um usuario na base // não precisa autenticar é publica
-  -
+
 ### Tech
 
 gorila-api usa:
@@ -45,7 +45,7 @@ $ npm run build //gerar a pasta dist para rodar em produção
 $ npm run start //rodar a api apartir dos arquivos de build /dist
 ```
 
-Tests:
+### Tests:
 
 ```sh
 $ npm run test:unit // roda apenas testes unitarios
