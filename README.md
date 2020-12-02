@@ -4,7 +4,7 @@ gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e
 
 # Features!
   - SignUp API: Criação de usuario com senha cryptografada utilizando Bcrypt e o padrão JwT
-  - Login e geração de token de assccessToken cryptogradado
+  - Login e geração de token de assccessToken cryptografado
   - Middleware de autenticação das rotas
   - Criação de investimentos de renda passiva e ativa
   
@@ -36,7 +36,7 @@ Codigo publicado no GitHub
 gorila-api precisa [Node.js](https://nodejs.org/) v10+ para rodar.
 npm para o gerenciamento e download das dependencias e MongoDb
 
-Com essas depencias instaladas, basta clonar o repositorio do git, navegar até a pasta raiz da aplicação e rodas os seguintes comandos:
+Com essas depencias instaladas, basta clonar o repositorio do git, navegar até a pasta raiz da aplicação e rodar os seguintes comandos:
 
 ```sh
 $ npm install
