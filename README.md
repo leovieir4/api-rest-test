@@ -34,8 +34,7 @@ Codigo publicado no GitHub
 ### Installation
 
 gorila-api precisa [Node.js](https://nodejs.org/) v10+ para rodar.
-npm para o gerenciamento e download das dependencias
-MongoDb
+npm para o gerenciamento e download das dependencias e MongoDb
 
 Com essas depencias instaladas, basta clonar o repositorio do git, navegar até a pasta raiz da aplicação e rodas os seguintes comandos:
 
