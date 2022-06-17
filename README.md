@@ -1,6 +1,6 @@
-# gorila-api
+# api-rest-test
 
-gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e com banco orientando a documentos MongoDb e com base nos princios de TDD (ulizando jest para unit tests e supertest para integration), Clean Architecture, SOLID e seus design patterns. Criada para cumprir o [desafio](https://www.notion.so/Teste-Gorila-Full-Stack-J-nior-e-Pleno-d5e1b497ff64430ab6bb50aa988e2429) da Gorila invest de criar uma carteira de ativos de renda fixa e renda variada simplificada.
+api-rest-test é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e com banco orientando a documentos MongoDb e com base nos princios de TDD (ulizando jest para unit tests e supertest para integration), Clean Architecture, SOLID e seus design patterns.
 
 # Features!
   - SignUp API: Criação de usuario com senha cryptografada utilizando Bcrypt e o padrão JwT
@@ -18,7 +18,7 @@ gorila-api é uma api desenvolvida com base nas tecnologias NodeJs, Typescript e
 
 ### Tech
 
-gorila-api usa:
+api-rest-test usa:
 
 * [NodeJs]
 * [JwT]
@@ -33,7 +33,7 @@ Codigo publicado no GitHub
 
 ### Installation
 
-gorila-api precisa [Node.js](https://nodejs.org/) v10+ para rodar.
+api-rest-test precisa [Node.js](https://nodejs.org/) v10+ para rodar.
 npm para o gerenciamento e download das dependencias e MongoDb
 
 Com essas depencias instaladas, basta clonar o repositorio do git, navegar até a pasta raiz da aplicação e rodar os seguintes comandos:
@@ -53,7 +53,3 @@ $ npm run test:integration // roda apenas os testes de integração
 $ npm run test // roda todos os testes tanto integration quanto unit
 $ npm run test:ci // roda todos os testes monstrando a cobertura total
 ```
-
-A api está hospedada no heroku versão free dyno, por isso quando não utilizada o heroku a desliga até a proxima requisição, por isso pode demorar um pouco para a primeira resposta.
-
-Link da api: https://api-gorila-one.herokuapp.com/api/
